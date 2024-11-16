@@ -348,6 +348,10 @@ section:not(:first-child) {
   border-radius: 50%;
 }
 
+.socials-link:hover {
+  background-color: #404bbf;
+}
+
 .socials-icon {
   position: absolute;
   top: 50%;
@@ -471,6 +475,10 @@ section:not(:first-child) {
 
 .footer .socials {
   gap: 16px;
+}
+
+.footer .socials-link:hover {
+  background-color: #31d0aa;
 }
 
 /* #endregion */
